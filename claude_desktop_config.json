@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "composio": {
+      "command": "npx",
+      "args": [
+        "@modelcontextprotocol/server-composio"
+      ],
+      "env": {
+        "COMPOSIO_API_KEY": "your_composio_api_key_here"
+      }
+    },
+    "composio-remote": {
+      "command": "mcp-client",
+      "args": [
+        "--transport", "sse",
+        "--url", "https://mcp.composio.dev/composio/server/1139f902-0ed8-45db-b662-9a0d8a34016e?transport=sse"
+      ]
+    }
+  }
+}

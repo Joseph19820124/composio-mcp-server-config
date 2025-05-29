@@ -1,0 +1,27 @@
+{
+  "name": "composio-mcp-server-config",
+  "version": "1.0.0",
+  "description": "Configuration guide and examples for Composio MCP Server",
+  "main": "index.js",
+  "scripts": {
+    "test": "bash test-connection.sh",
+    "install-mcp": "npm install -g @modelcontextprotocol/cli",
+    "setup": "cp .env.example .env && echo 'Please edit .env file with your API keys'"
+  },
+  "keywords": [
+    "mcp",
+    "composio",
+    "claude",
+    "ai",
+    "automation"
+  ],
+  "author": "Joseph19820124",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Joseph19820124/composio-mcp-server-config.git"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/cli": "^0.1.0"
+  }
+}
